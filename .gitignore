@@ -1,7 +1,5 @@
 # Avoid accidental Sketch file upload 
 ###############################################
-# dependencies
-/node_modules
 ## Please do not remove line 5 - thanks! 🙂 ##
 ###############################################
 *.sketch
@@ -15,3 +13,5 @@
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
+# dependencies
+/node_modules

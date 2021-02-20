@@ -25,6 +25,9 @@ figure > img {
 figcaption {
   display: none; }
 
+p {
+  line-height: 1.5; }
+
 .get-started, .try {
   margin: 0;
   padding: 0;
@@ -86,9 +89,6 @@ body > header > h1 img {
   font-weight: 700;
   color: #00252e; }
 
-.masthead p {
-  line-height: 1.5; }
-
 .section__illustration {
   margin: 16px; }
 
@@ -101,7 +101,7 @@ body > header > h1 img {
 .section__illustration h3 {
   font-family: Poppins;
   color: #00252e;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0; }
 
 .section__illustration i {
@@ -121,3 +121,21 @@ body > header > h1 img {
 
 .section__illustration p {
   margin: 0; }
+
+.section__grow--together {
+  padding: 16px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  background-image: url(../images/bg-section-top-mobile-2.svg);
+  background: url(../images/bg_tablet_pattern.svg), url(../images/illustration_intro.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: 65px, 12px;
+  background-blend-mode: overlay; }
+
+.section__grow--together h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  color: #00252e; }

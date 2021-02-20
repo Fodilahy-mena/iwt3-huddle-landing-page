@@ -1,0 +1,21 @@
+
+.section__grow--together {
+    padding: 16px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../images/bg-section-top-mobile-2.svg);
+    background: url(../images/bg_tablet_pattern.svg), url(../images/illustration_intro.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 65px, 12px;
+    // background-size: 100%, 90%;
+    background-blend-mode: overlay;
+}
+
+.section__grow--together h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    color: #00252e;
+}
