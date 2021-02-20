@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans:400, 600, 700bold&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700bold&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: white; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+figure {
+  margin: 0; }
+
+figure > img {
+  max-width: 100%; }
+
+figcaption {
+  display: none; }
+
+.get-started, .try {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  line-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
+.get-started {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+.get-started__btn {
+  padding: 1.5rem 3rem;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 1000px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  background-color: #ff52bf; }
+
+body > header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px;
+  align-items: center; }
+
+body > header > h1 img {
+  width: 146px; }
+
+.try__btn {
+  padding: .8rem 2rem;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 1000px;
+  border: 2px solid #ff8fd8;
+  color: #ff8fd8;
+  font-weight: 400; }
+
+.try__btn:hover {
+  -webkit-box-shadow: -1px 1px 8px -2px #ff8fd8;
+  box-shadow: -1px 1px 8px -2px #ff8fd8; }
+
+.masthead {
+  text-align: center;
+  margin: 16px;
+  margin-top: 125px; }
+
+.heading {
+  font-family: Poppins;
+  font-weight: 700;
+  color: #00252e; }
+
+.masthead p {
+  line-height: 1.5; }
+
+.section__illustration {
+  margin: 16px; }
+
+.section__illustration div {
+  max-width: 182px;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.section__illustration h3 {
+  font-family: Poppins;
+  color: #00252e;
+  font-size: 40px;
+  margin: 0; }
+
+.section__illustration i {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  background-position: left; }
+
+.illustration__communities i {
+  background-image: url(../images/icon-communities.svg); }
+
+.illustration__messages i {
+  background-image: url(../images/icon-messages.svg); }
+
+.section__illustration p {
+  margin: 0; }

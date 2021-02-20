@@ -1,5 +1,7 @@
 # Avoid accidental Sketch file upload 
 ###############################################
+# dependencies
+/node_modules
 ## Please do not remove line 5 - thanks! 🙂 ##
 ###############################################
 *.sketch

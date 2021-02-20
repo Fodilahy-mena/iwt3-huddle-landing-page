@@ -1,0 +1,36 @@
+
+.section__illustration {
+    // text-align: center;
+    margin: 16px;
+}
+.section__illustration div {
+    max-width: 182px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.section__illustration h3 {
+    font-family: Poppins;
+    color: #00252e;
+    font-size: 40px;
+    margin: 0;
+}
+.section__illustration i {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: auto;
+    background-position: left;
+}
+.illustration__communities i {
+    background-image: url(../images/icon-communities.svg);
+}
+
+.illustration__messages i {
+    background-image: url(../images/icon-messages.svg);
+}
+.section__illustration p {
+    margin: 0;
+}

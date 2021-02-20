@@ -1,0 +1,27 @@
+
+body > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px;
+    align-items: center;
+}
+
+body > header > h1 img {
+    width: 146px;
+}
+
+.try__btn {
+    padding: .8rem 2rem;
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 1000px;
+    border: 2px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    font-weight: 400;
+}
+.try__btn:hover {
+    -webkit-box-shadow: -1px 1px 8px -2px hsl(321, 100%, 78%); 
+    box-shadow: -1px 1px 8px -2px hsl(321, 100%, 78%);
+}
