@@ -1,37 +1,33 @@
 @import './variables.scss';
 
-.section__grow--together {
+.section__your--users {
     padding-top: 26%;
-    padding-bottom: 13%;
+    padding-bottom: 25%;
     text-align: center;
     display: flex;
     flex-direction: column-reverse;
-    background: url(../images/bg-section-top-mobile-1.svg), url(../images/bg-section-bottom-mobile-1.svg);
+    background: url(../images/bg-section-top-mobile-2.svg), url(../images/bg-section-bottom-mobile-2.svg);
     background-position:center top, bottom;
 	background-repeat:no-repeat, no-repeat;
     background-size: contain, contain;
 }
-.section__grow--together .section__container {
+
+.section__your--users .section__container {
     background-color: hsl(207, 100%, 98%);
     padding-left: 16px;
     padding-right: 16px;
 }
 
-.section__grow--together h1 {
-    font-family: 'Poppins';
-    font-weight: 700;
-    color: #00252e;
-}
 @media (min-width: 768px) {
-    .section__grow--together {
+    .section__your--users {
         padding-top: 10%;
         padding-bottom: 9%;
-        background: url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg);
+        background: url(../images/bg-section-top-desktop-2.svg), url(../images/bg-section-bottom-desktop-2.svg);
         background-position: top, bottom;
         background-repeat:no-repeat, no-repeat;
         background-size: contain, contain;
     }
-    .section__grow--together .section__container {
+    .section__your--users .section__container {
         justify-content: space-between;
         align-items: center;
         display: flex;

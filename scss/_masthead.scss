@@ -1,3 +1,4 @@
+@import './variables.scss';
 
 .masthead {
     text-align: center;
@@ -11,5 +12,10 @@
     color: hsl(192, 100%, 9%);
 }
 
-
+@media (min-width: 768px) {
+    .masthead {
+        padding-left: $section_padding_desktop;
+        padding-right: $section_padding_desktop;
+    }
+}
 

@@ -34,3 +34,14 @@
 .section__illustration p {
     margin: 0;
 }
+
+@media (min-width: 768px) {
+.section__communities {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section__illustration {
+    display: flex;
+    flex-direction: row;
+}
+}

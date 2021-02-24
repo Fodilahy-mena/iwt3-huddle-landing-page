@@ -1,4 +1,4 @@
-
+@import './variables.scss';
 body > header {
     display: flex;
     flex-direction: row;
@@ -24,4 +24,13 @@ body > header > h1 img {
 .try__btn:hover {
     -webkit-box-shadow: -1px 1px 8px -2px hsl(321, 100%, 78%); 
     box-shadow: -1px 1px 8px -2px hsl(321, 100%, 78%);
+}
+
+@media (min-width: 768px) {
+    body > header {
+        margin-left: unset;
+        margin-right: unset;
+        padding-left: $section_padding_desktop;
+        padding-right: $section_padding_desktop;
+    }
 }

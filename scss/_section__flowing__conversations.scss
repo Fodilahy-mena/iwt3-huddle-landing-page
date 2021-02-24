@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+.section__flowing--conversations {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .section__flowing--conversations {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6rem;
+        padding-left: $section_padding_desktop;
+        padding-right: $section_padding_desktop;
+        margin: unset;
+    }
+}
