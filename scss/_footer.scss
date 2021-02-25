@@ -1,30 +1,131 @@
+@import './variables.scss';
 
 footer {
-    padding-top: 11%;
+    padding-top: 10.5%;
     background: url(../images/bg-footer-top-mobile.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     color: white;
 }
+footer h1 {
+    text-transform: uppercase;
+}
 .footer__container {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     background-color: hsl(192, 100%, 9%);
+}
+
+footer h2 > a {
+    background-image: url(../images/logo-white.svg);
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    max-width: 292px;
+    margin-bottom: 4rem;
+}
+
+footer form > input, footer form > button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+footer form > button {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(321, 100%, 78%);
+    // max-width: calc(292px / 2);
+    padding: 1rem 2rem;
+    align-self: flex-end;
+}
+
+  .icons {
+    // margin: auto;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    // margin-bottom: 1.5rem;
+  }
+.acessibilities p {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+}
+
+.acessibilities i, .icons_list {
+  display: block;
+  text-indent: -999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.acessibilities__phone {
+    background-image: url(../images/icon-phone.svg);
+  //   margin-inline-start: 1rem;
+  }
+  .acessibilities__email {
+      background-image: url(../images/icon-email.svg);
+    //   margin-inline-start: 1rem;
+    }
+
+.facebook {
+  background-image: url(../images/icon-facebook.svg);
+}
+
+.twitter {
+  background-image: url(../images/icon-twitter.svg);
+//   margin-inline-start: 1rem;
+}
+
+.instagram {
+  background-image: url(../images/icon-instagram.svg);
+//   margin-inline-start: 1rem;
 }
 
 @media (min-width: 768px) {
     footer {
-        padding-top: 11%;
+        padding-top: 10.5%;
         background: url(../images/bg-footer-top-desktop.svg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
+        
     }
     .footer__container {
-        padding-left: unset;
-        padding-right: unset;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 10%;
+        padding-left: $section_padding_desktop;
+        padding-right: $section_padding_desktop;
+    }
+
+    footer form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-bottom: unset;
+    }
+
+    footer form > input {
+        padding: .5rem 2rem;
     }
 }
